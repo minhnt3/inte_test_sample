@@ -8,5 +8,5 @@ workflows:
       xcode: 15
       cocoapods: 1.12.0
     scripts: 
-      - flutter emulators --launch apple_ios_simulator
+      - flutter emulators --launch ios
       - make it
