@@ -4,9 +4,9 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 60
     environment:
-      flutter: 3.13.9
+      flutter: 3.16.3
       xcode: 15
-      cocoapods: 1.11.3
+      cocoapods: 1.12.0
     scripts: 
       - flutter emulators --launch apple_ios_simulator
       - make it
