@@ -22,3 +22,5 @@ workflows:
         #
         # run the actual test command
         flutter -d $TEST_DEVICE drive --driver=integration_test/test_driver/integration_driver.dart --target integration_test/counter_test.dart --debug
+    artifacts:
+      - integration_test/screenshots/ios/*.png
